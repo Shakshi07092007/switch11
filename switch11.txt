@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+  charg;
+  printf("enter grade(A/B/c):");
+  scanf("%c",&g);
+switch(g){
+  case'A':printf("excellent!\n");
+break;
+  case'B':printf("good!\n");
+break;
+  case'C':printf("average!\n");
+break;
+default:printf("invalid grade\n");
+}
+return 0;
+}
